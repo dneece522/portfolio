@@ -41,3 +41,8 @@ img {
   width: 500px;
   height: auto;
 }
+
+.link-buttons {
+  text-decoration: none;
+  color: black;
+}
