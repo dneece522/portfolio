@@ -1,6 +1,8 @@
+import styles from './About.module.css'
+
 const About = () => {
   return (
-    < >
+    <div className={styles.container} style={{fontFamily: 'Montserrat'}}>
       <h1>About Me</h1>
       <img src="profile.jpeg" alt="Andrew Neece" />
       <p>
@@ -9,13 +11,15 @@ const About = () => {
       <p>
         During my 4 years in college as a Mechatronics Engineer, I worked on multiple projects that consisted of using different software languages, including my senior capstone project where I was the hardware engineer and backup software engineer for a project working with Texas Instruments and the Department of Defense. With my time at General Assembly and Texas A&M, I've learned what it takes to be a successful engineer.
       </p>
-      <p>
-        Programming Skills: JavaScript | HTML | CSS | Node | Express | React | MongoDB | TypeScript | Python
-      </p>
-      <p>
-        Other Technical Skills: MATLAB | C | LabVIEW | Altium Designer | Solidworks | AutoCAD | Creo | InfoWater
-      </p>
-    </>
+      <div className={styles.skills}>
+        <p>
+          <span>Programming Skills:</span> JavaScript | HTML | CSS | Node | Express | React | MongoDB | TypeScript | Python
+        </p>
+        <p>
+          <span>Other Technical Skills:</span> MATLAB | C | LabVIEW | Altium Designer | Solidworks | AutoCAD | Creo | InfoWater
+        </p>
+      </div>
+    </div>
   )
 }
 

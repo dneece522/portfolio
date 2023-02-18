@@ -1,14 +1,25 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import NavBar from './components/NavBar/NavBar'
-import About from './pages/About'
+import About from './pages/About/About'
 import Contact from './pages/Contact'
 import Home from './pages/Home/Home'
 import Projects from './pages/Projects'
 import Resume from './pages/Resume'
 import ProjectDetails from './pages/ProjectDetails'
+import WebFont from 'webfontloader'
+import { useEffect } from 'react'
 
 function App() {
+
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: ['Montserrat']
+      }
+    })
+  }, [])
+
   return (
     < >
       <NavBar />

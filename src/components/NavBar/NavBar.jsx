@@ -5,7 +5,7 @@ import { faMicrochip } from "@fortawesome/free-solid-svg-icons"
 
 const NavBar = () => {
   return (
-    <nav className={styles.container}>
+    <nav className={styles.container} style={{fontFamily: 'Montserrat'}}>
       <Link className={styles.icon} to='/'><FontAwesomeIcon icon={faMicrochip} size={'3x'} spin /></Link>
       <ul>
         <li>
