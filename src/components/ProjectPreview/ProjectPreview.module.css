@@ -1,0 +1,16 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project img {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.project section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
