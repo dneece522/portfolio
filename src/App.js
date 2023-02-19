@@ -6,7 +6,7 @@ import Contact from './pages/Contact'
 import Home from './pages/Home/Home'
 import Projects from './pages/Projects/Projects'
 import Resume from './pages/Resume/Resume'
-import ProjectDetails from './pages/ProjectDetails'
+import ProjectDetails from './pages/ProjectDetails/ProjectDetails'
 import WebFont from 'webfontloader'
 import { useEffect } from 'react'
 

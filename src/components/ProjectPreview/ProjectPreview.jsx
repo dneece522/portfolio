@@ -7,7 +7,7 @@ const ProjectPreview = (props) => {
     <div className={styles.project}>
       <img src={props.project.image} alt={props.project.title} />
       <section>
-        <h3>{props.project.title}</h3>
+        <h2>{props.project.title}</h2>
         <Link to={hyphenateWords(props.project.title)}>
           <button>Learn More</button>
         </Link>

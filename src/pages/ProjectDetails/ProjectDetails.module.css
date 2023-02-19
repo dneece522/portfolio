@@ -1,0 +1,31 @@
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.container p {
+  display: inline-block;
+  width: 850px;
+  margin: 5px 0;
+}
+
+.container img {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.container button {
+  background-color: #500000;
+  border-radius: 5px;
+  padding: 3px 8px;
+  margin: 0 25px;
+}
+
+.container a {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+}
