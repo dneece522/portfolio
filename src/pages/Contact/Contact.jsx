@@ -1,6 +1,8 @@
+import styles from './Contact.module.css'
+
 const Contact = () => {
   return (
-    < >
+    <div className={styles.container} style={{fontFamily: 'Montserrat'}}>
       <h1>Contact Information</h1>
       <h3>Reach out if you'd like to work with me!</h3>
       <ul>
@@ -32,7 +34,7 @@ const Contact = () => {
           </a>
         </li>
       </ul>
-    </>
+    </div>
   )
 }
 
